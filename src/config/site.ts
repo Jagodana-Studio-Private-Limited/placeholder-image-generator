@@ -1,174 +1,156 @@
 export const siteConfig = {
-  // ====== CUSTOMIZE THESE FOR EACH TOOL ======
-  name: "{{TOOL_NAME}}",
-  title: "{{TOOL_TITLE}}",
-  description: "{{TOOL_DESCRIPTION}}",
-  url: "https://{{TOOL_SLUG}}.jagodana.com",
+  name: "Placeholder Image Generator",
+  title: "Placeholder Image Generator - Create Custom Placeholder Images Instantly",
+  description: "Generate custom placeholder images with configurable dimensions, colors, text, and formats. Download as PNG, JPEG, or SVG. 100% free, no signup, runs entirely in your browser.",
+  url: "https://placeholder-image-generator.tools.jagodana.com",
   ogImage: "/opengraph-image",
 
-  // Header
-  headerIcon: "Wrench", // lucide-react icon name (e.g., Image, Map, Code, Palette, Globe, FileSearch)
-  // Brand gradient colors for Tailwind are in globals.css (--brand / --brand-accent)
-  // Use text-brand, from-brand, to-brand-accent etc. in components
-  brandAccentColor: "#06b6d4", // hex accent for OG image gradient (must match --brand-accent in globals.css)
+  headerIcon: "Image",
+  brandAccentColor: "#ec4899",
 
-  // SEO
   keywords: [
-    "{{KEYWORD_1}}",
-    "{{KEYWORD_2}}",
-    "{{KEYWORD_3}}",
+    "placeholder image generator",
+    "dummy image creator",
+    "placeholder images",
+    "custom placeholder",
+    "image placeholder tool",
+    "mockup image generator",
+    "wireframe placeholder",
+    "design placeholder",
+    "free placeholder images",
+    "placeholder image API alternative",
   ],
-  applicationCategory: "DeveloperApplication", // or "DesignApplication", "UtilitiesApplication"
+  applicationCategory: "DesignApplication",
 
-  // Theme
-  themeColor: "#10b981", // used in manifest and meta tags
+  themeColor: "#a855f7",
 
-  // Branding
   creator: "Jagodana",
   creatorUrl: "https://jagodana.com",
   twitterHandle: "@jagodana",
 
-  // Social Profiles (for Organization schema sameAs)
   socialProfiles: [
-    "https://twitter.com/jagodana",
-    // Add more: LinkedIn, YouTube, etc.
+    "https://twitter.com/Dharmendra_Jago",
+    "https://github.com/Jagodana-Studio-Private-Limited",
+    "https://www.linkedin.com/company/jagodana-llc",
   ],
 
-  // Links
   links: {
-    github: "https://github.com/Jagodana-Studio-Private-Limited/{{TOOL_SLUG}}",
+    github: "https://github.com/Jagodana-Studio-Private-Limited/placeholder-image-generator",
     website: "https://jagodana.com",
   },
 
-  // Footer
   footer: {
-    about: "{{FOOTER_ABOUT_DESCRIPTION}}",
+    about: "Placeholder Image Generator creates custom placeholder images instantly in your browser. Perfect for mockups, wireframes, and prototyping — no signup or API keys needed.",
     featuresTitle: "Features",
     features: [
-      "{{FEATURE_1}}",
-      "{{FEATURE_2}}",
-      "{{FEATURE_3}}",
-      "{{FEATURE_4}}",
+      "Custom dimensions & presets",
+      "Configurable colors & text",
+      "PNG, JPEG & SVG export",
+      "100% client-side processing",
     ],
   },
 
-  // Hero Section
   hero: {
-    badge: "{{HERO_BADGE_TEXT}}",
-    titleLine1: "{{HERO_TITLE_LINE_1}}",
-    titleGradient: "{{HERO_TITLE_GRADIENT_TEXT}}",
-    subtitle: "{{HERO_SUBTITLE}}",
+    badge: "Free & No Signup Required",
+    titleLine1: "Generate Custom",
+    titleGradient: "Placeholder Images",
+    subtitle: "Create pixel-perfect placeholder images for your mockups, wireframes, and prototypes. Choose dimensions, colors, text — download instantly as PNG, JPEG, or SVG.",
   },
 
-  // Feature Cards (shown on homepage)
   featureCards: [
     {
-      icon: "{{FEATURE_ICON_1}}",
-      title: "{{FEATURE_CARD_TITLE_1}}",
-      description: "{{FEATURE_CARD_DESC_1}}",
+      icon: "📐",
+      title: "Any Size You Need",
+      description: "Choose from common presets (1920×1080, 800×600, etc.) or enter any custom dimensions up to 4096px.",
     },
     {
-      icon: "{{FEATURE_ICON_2}}",
-      title: "{{FEATURE_CARD_TITLE_2}}",
-      description: "{{FEATURE_CARD_DESC_2}}",
+      icon: "🎨",
+      title: "Fully Customizable",
+      description: "Pick background and text colors, add custom text overlays, and adjust font size to match your design.",
     },
     {
-      icon: "{{FEATURE_ICON_3}}",
-      title: "{{FEATURE_CARD_TITLE_3}}",
-      description: "{{FEATURE_CARD_DESC_3}}",
+      icon: "⬇️",
+      title: "Multiple Formats",
+      description: "Export as PNG, JPEG, or SVG. Copy to clipboard with one click or download directly to your device.",
     },
   ],
 
-  // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
   relatedTools: [
     {
-      name: "Favicon Generator",
-      url: "https://favicon-generator.jagodana.com",
-      icon: "🎨",
-      description: "Generate all favicon sizes + manifest from any image.",
-    },
-    {
-      name: "Sitemap Checker",
-      url: "https://sitemap-checker.jagodana.com",
-      icon: "🔍",
-      description: "Discover and validate sitemaps on any website.",
-    },
-    {
-      name: "Regex Playground",
-      url: "https://regex-playground.jagodana.com",
-      icon: "🧪",
-      description: "Build, test & debug regular expressions in real-time.",
-    },
-    {
       name: "Screenshot Beautifier",
-      url: "https://screenshot-beautifier.jagodana.com",
+      url: "https://screenshot-beautifier.tools.jagodana.com",
       icon: "📸",
       description: "Transform screenshots into beautiful images.",
     },
     {
+      name: "Favicon Generator",
+      url: "https://favicon-generator.tools.jagodana.com",
+      icon: "🎨",
+      description: "Generate all favicon sizes + manifest from any image.",
+    },
+    {
       name: "Color Palette Explorer",
-      url: "https://color-palette-explorer.jagodana.com",
+      url: "https://color-palette-explorer.tools.jagodana.com",
       icon: "🎭",
       description: "Extract color palettes from any image.",
     },
     {
+      name: "Aspect Ratio Calculator",
+      url: "https://aspect-ratio-calculator.tools.jagodana.com",
+      icon: "📏",
+      description: "Calculate and convert aspect ratios for any resolution.",
+    },
+    {
       name: "Logo Maker",
-      url: "https://logo-maker.jagodana.com",
+      url: "https://logo-maker.tools.jagodana.com",
       icon: "✏️",
       description: "Create a professional logo in 60 seconds.",
     },
+    {
+      name: "Image Color Extractor",
+      url: "https://image-color-extractor.tools.jagodana.com",
+      icon: "🔍",
+      description: "Extract dominant colors from any image.",
+    },
   ],
 
-  // HowTo Steps (drives HowTo JSON-LD schema for rich results)
   howToSteps: [
-    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
-    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
-    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+    { name: "Set Dimensions", text: "Choose a preset size or enter custom width and height values for your placeholder image.", url: "" },
+    { name: "Customize Appearance", text: "Pick background color, text color, and optionally add custom overlay text.", url: "" },
+    { name: "Export Your Image", text: "Download as PNG, JPEG, or SVG, or copy directly to clipboard with one click.", url: "" },
   ],
-  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+  howToTotalTime: "PT1M",
 
-  // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
   faq: [
     {
-      question: "{{FAQ_QUESTION_1}}",
-      answer: "{{FAQ_ANSWER_1}}",
+      question: "Is this placeholder image generator free?",
+      answer: "Yes, completely free with no signup required. All images are generated in your browser — nothing is uploaded to any server.",
     },
     {
-      question: "{{FAQ_QUESTION_2}}",
-      answer: "{{FAQ_ANSWER_2}}",
+      question: "What image formats are supported?",
+      answer: "You can export placeholder images as PNG (lossless), JPEG (smaller file size), or SVG (scalable vector format perfect for responsive designs).",
     },
     {
-      question: "{{FAQ_QUESTION_3}}",
-      answer: "{{FAQ_ANSWER_3}}",
+      question: "What is the maximum image size?",
+      answer: "You can generate images up to 4096×4096 pixels. This covers virtually all use cases from thumbnails to high-resolution displays.",
     },
     {
-      question: "{{FAQ_QUESTION_4}}",
-      answer: "{{FAQ_ANSWER_4}}",
+      question: "Can I use these images in commercial projects?",
+      answer: "Absolutely. Placeholder images generated by this tool are yours to use however you want — personal projects, commercial work, client mockups, etc.",
+    },
+    {
+      question: "How is this different from placeholder.com or similar services?",
+      answer: "Unlike external placeholder services, this tool runs entirely in your browser. No API calls, no rate limits, no dependency on third-party servers. Your images are generated instantly offline.",
     },
   ],
 
-  // ====== PAGES (for sitemap + per-page SEO) ======
-  // Add every route here. Sitemap and generatePageMetadata() read from this.
   pages: {
     "/": {
-      title: "{{TOOL_TITLE}}",
-      description: "{{TOOL_DESCRIPTION}}",
+      title: "Placeholder Image Generator - Create Custom Placeholder Images Instantly",
+      description: "Generate custom placeholder images with configurable dimensions, colors, text, and formats. Download as PNG, JPEG, or SVG. 100% free, runs in your browser.",
       changeFrequency: "weekly" as const,
       priority: 1,
     },
-    // Example page (DELETE when starting your tool, or customize)
-    "/about": {
-      title: "About - {{TOOL_NAME}}",
-      description: "Learn more about {{TOOL_NAME}} and how it works.",
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    // "/blog": {
-    //   title: "Blog - {{TOOL_NAME}}",
-    //   description: "Tips, tutorials, and updates about {{TOOL_NAME}}.",
-    //   changeFrequency: "weekly" as const,
-    //   priority: 0.8,
-    // },
   },
 } as const;
 

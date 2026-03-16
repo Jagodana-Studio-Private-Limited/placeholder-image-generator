@@ -2,7 +2,8 @@
 
 import { useCallback } from "react";
 import { motion } from "framer-motion";
-import { ArrowDown, Sparkles } from "lucide-react";
+import { ArrowDown, Sparkles, Image } from "lucide-react";
+import { PlaceholderGenerator } from "@/components/placeholder-generator";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { AnimatedGradientText } from "@/components/animated-gradient-text";
@@ -105,9 +106,7 @@ export function HomePage() {
           </motion.div>
         </section>
 
-        {/* ============================================ */}
-        {/* TODO: Replace this section with your tool UI */}
-        {/* ============================================ */}
+        {/* Tool Interface */}
         <section id="tool" className="scroll-mt-24 mb-20">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -115,13 +114,12 @@ export function HomePage() {
             transition={{ delay: 0.3 }}
             className="max-w-4xl mx-auto"
           >
-            <div className="rounded-2xl border border-border/50 bg-muted/30 p-12 text-center">
-              <p className="text-muted-foreground">
-                Your tool interface goes here.
-              </p>
-              <p className="text-sm text-muted-foreground/60 mt-2">
-                Replace this placeholder with your tool&apos;s main component.
-              </p>
+            <div className="rounded-2xl border border-border/50 bg-muted/30 p-6 sm:p-8">
+              <div className="flex items-center gap-2 mb-6">
+                <Image className="h-5 w-5 text-brand" />
+                <h2 className="text-lg font-semibold">Generate Placeholder Image</h2>
+              </div>
+              <PlaceholderGenerator />
             </div>
           </motion.div>
         </section>
